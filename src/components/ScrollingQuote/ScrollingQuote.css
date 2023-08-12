@@ -1,0 +1,23 @@
+.scrolling-container {
+    width: 50%;
+    height: 30px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 20s linear infinite;
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #dbd0ce;
+    margin: 0;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

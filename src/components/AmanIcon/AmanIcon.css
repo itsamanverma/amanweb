@@ -1,0 +1,54 @@
+/* AmanIcon.css */
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.letter {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 6px;
+    transition: color 0.3s ease-in-out;
+}
+
+.letter:hover {
+    color: #ff5733;
+}
+
+.letter-1 {
+    color: #4385f4;
+}
+
+.letter-2 {
+    color: #0f9d58;
+}
+
+.letter-3 {
+    color: #f4b400;
+}
+
+.letter-4 {
+    color: #db4437;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
