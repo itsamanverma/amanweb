@@ -1,0 +1,17 @@
+.carousel-image {
+    width: 100%;
+    /* Set image width to 100% of its container */
+    height: auto;
+    /* Maintain image aspect ratio */
+    max-height: 100vh;
+    /* Limit image height to the viewport height */
+    object-fit: cover;
+    /* Scale and crop the image to cover the container */
+}
+
+/* Add styles for the hero section */
+#hero {
+    position: relative;
+}
+
+

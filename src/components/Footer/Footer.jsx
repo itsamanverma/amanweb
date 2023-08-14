@@ -12,7 +12,7 @@ import { styled } from '@mui/system';
 import { GitHub, LinkedIn, YouTube } from '@mui/icons-material';
 
 const FooterContainer = styled(AppBar)`
-  background-color: #000000;
+  background-color: rgb(0 0 0 / 87%);
   color: #fdfdfd;
   position: sticky;
   bottom: 0;
